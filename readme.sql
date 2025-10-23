@@ -1,7 +1,5 @@
 #1. Afficher toutes les localités et codes postaux disponibles.
 
-
-
 #2. Lister tous les secrétaires avec leur nom, prénom et la localité où ils travaillent.
 
 
