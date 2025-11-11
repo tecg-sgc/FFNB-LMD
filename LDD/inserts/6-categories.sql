@@ -1,0 +1,18 @@
+INSERT INTO FFNB_Master.categories (code_categorie, lib_categorie, age_min, age_max)
+VALUES  ('0', '20/24', 20, 24),
+        ('9', 'moins de 20 ans', NULL, 19),
+        ('A', '25/29 ans', 25, 29),
+        ('B', '30/34 ans', 30, 34),
+        ('C', '35/39 ans', 35, 39),
+        ('D', '40/44 ans', 40, 44),
+        ('E', '45/49 ans', 45, 49),
+        ('F', '50/54 ans', 50, 54),
+        ('G', '55/59 ans', 55, 59),
+        ('H', '60/64 ans', 60, 64),
+        ('I', '65/69 ans', 65, 69),
+        ('J', '70/74 ans', 70, 74),
+        ('K', '75/79 ans', 75, 79),
+        ('L', '80/84 ans', 80, 84),
+        ('M', '85/89 ans', 85, 89),
+        ('N', '90/94 ans', 90, 94),
+        ('O', 'Plus de 94', 94, NULL);
