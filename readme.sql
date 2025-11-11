@@ -80,17 +80,3 @@
 
 #28. Rechercher le numéro de ligue, le nom, le prénom, le sexe, l'année de naissance et le nom du club des nageurs qui ont été classés premiers à toutes les courses auxquelles ils ont participé.
 
-
-
-# supprimer tous les codes postaux qui ne sont pas utilisés
-#2972
-SELECT count(*)
-FROM code_postaux;
-
-DELETE
-FROM code_postaux
-WHERE code_postal NOT IN (SELECT code_postal FROM nageurs)
-AND code_postal NOT IN (SELECT code_postal FROM secretariats)
-AND code_postal NOT in (SELECT code_postal FROM piscines) ;
-
-COMMIT;
